@@ -1,0 +1,14 @@
+{
+  "id": "generated/demosite/1.0.0",
+  "bundles": {"1":["org.adapto/demosite.core/1.0"]},
+  "content-packages:ARTIFACTS|false": [
+    {
+      "id": "org.adapto/demosite.ui.apps/1.0/zip",
+      "runmodes": ":standalone"
+    },
+    {
+      "id": "org.adapto/demosite.ui.content/1.0-SNAPSHOT/zip",
+      "runmodes": ":standalone"
+    }
+  ]
+}

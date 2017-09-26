@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Default Page Title</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Signika" />
+  <style>
+    h1 {
+      color: white;
+      font-family: Signika;
+      font-size: 300%;
+      text-align: center;
+    }
+    p {
+      color: white;
+      font-family: Signika;
+      font-size: 2em;
+      text-align: center;
+    }
+    .joke {
+      position: absolute;
+      width: 20em;
+      height: 2em;
+      top: 30%;
+      left: 50%;
+      margin-left: -10em;
+    }
+    body {
+      background:
+              black;
+    }
+  </style>
+</head>
+
+<body>
+<div class="joke" data-sly-use.jokeModel="org.adapto.core.models.JokeModel">
+  <h1>${jokeModel.caption}</h1>
+  <p>${jokeModel.joke}</p>
+</div>
+
+</body>
+</html>
